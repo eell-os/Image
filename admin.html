@@ -63,9 +63,9 @@
                 <template slot-scope="scope">
                   <el-image
                     style="width: 100%; height: 100%;"
-                    :src="'https://image.eell.pro/file/'+scope.row.name"
+                    :src="'/file/'+scope.row.name"
                     :zoom-rate="1.2"
-                    :preview-src-list="['/file/'+scope.row.name]"
+                    :preview-src-list="['https://image.eell.pro/file/'+scope.row.name]"
                     fit="cover"
                     lazy
                   />
